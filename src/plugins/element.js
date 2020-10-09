@@ -1,0 +1,81 @@
+import Vue from 'vue'
+import {
+  Button,
+  Container,
+  Aside,
+  Header,
+  Main,
+  Menu,
+  Submenu,
+  MenuItemGroup,
+  MenuItem,
+  Form,
+  FormItem,
+  Input,
+  Breadcrumb,
+  breadcrumbItem,
+  Card,
+  Row,
+  Col,
+  Checkbox,
+  Divider,
+  Link,
+  Dialog,
+  Table,
+  TableColumn,
+  CheckboxGroup,
+  Message,
+  MessageBox,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Cascader,
+  Pagination,
+  Loading,
+  Select,
+  Option,
+  Switch,
+  RadioGroup,
+  Radio,
+  Tree,
+} from 'element-ui'
+
+Vue.use(Button)
+Vue.use(Container)
+Vue.use(Aside)
+Vue.use(Header)
+Vue.use(Main)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItemGroup)
+Vue.use(MenuItem)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Breadcrumb)
+Vue.use(breadcrumbItem)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Checkbox)
+Vue.use(Divider)
+Vue.use(Link)
+Vue.use(Dialog)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(CheckboxGroup)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Cascader)
+Vue.use(Pagination)
+Vue.use(Loading)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Switch)
+Vue.use(RadioGroup)
+Vue.use(Radio)
+Vue.use(Tree)
+
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
