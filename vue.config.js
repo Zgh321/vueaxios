@@ -1,8 +1,8 @@
-
+﻿
 module.exports = {
   //打包路径
   publicPath: './',
-
+  // 测试git
   //配置跨域
   devServer: {
     port: 8888,
